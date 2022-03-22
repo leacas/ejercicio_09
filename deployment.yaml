@@ -17,8 +17,6 @@ spec:
       containers:
       - name: telegram-bot-api
         image: nicopaez/telegrambot:0.0.7
-        ports:
-        - containerPort: 8080
         env:
         - name: TELEGRAM_TOKEN
           value: "A_COMPLETAR"
